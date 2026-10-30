@@ -1,0 +1,4 @@
+interface:
+  display_name: "Iver 技术学习"
+  short_description: "按应用或面试目标规划技术学习，边验证边写讲解笔记并保存进度"
+  default_prompt: "使用 $iver-learn-tech 根据本轮应用、面试或兼顾目标制定学习计划，带我实践验证，并持续整理笔记与进度。"
