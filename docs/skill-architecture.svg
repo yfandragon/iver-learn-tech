@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 940" role="img" aria-labelledby="title desc">
+  <title id="title">Iver Learn Tech 技术学习 skill 结构图</title>
+  <desc id="desc">图示 skill 包的入口与按需参考、一次学习的真实项目流程、学习指南和进度文件，以及跨会话恢复闭环。</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8FAFD"/>
+      <stop offset="1" stop-color="#EDF2F8"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#142943"/>
+      <stop offset="1" stop-color="#203C5A"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#EDF3FF"/>
+      <stop offset="1" stop-color="#E8F4F7"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8B9DB3"/>
+    </marker>
+    <marker id="arrowLight" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#A8BDD4"/>
+    </marker>
+  </defs>
+
+  <rect width="1440" height="940" fill="url(#background)"/>
+  <circle cx="1340" cy="42" r="180" fill="#DDE8F5" opacity="0.25"/>
+  <circle cx="12" cy="830" r="170" fill="#D8EBE9" opacity="0.25"/>
+
+  <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <circle cx="69" cy="53" r="5" fill="#2A9B91"/>
+    <text x="84" y="58" fill="#52677E" font-size="13" font-weight="700" letter-spacing="2.1">IVER LEARN TECH · SYSTEM MAP</text>
+    <rect x="1198" y="36" width="178" height="34" rx="17" fill="#FFFFFF" stroke="#DCE4EE"/>
+    <text x="1287" y="58" fill="#64788E" font-size="12" font-weight="700" letter-spacing="1.1" text-anchor="middle">SKILL ARCHITECTURE</text>
+
+    <text x="64" y="108" fill="#172B43" font-size="34" font-weight="750" letter-spacing="-0.7">从一个 skill 入口，到可续接的真实项目学习</text>
+    <text x="66" y="140" fill="#63758A" font-size="16" font-weight="400">按需加载规则 · AI 协作实践 · 学习状态留在你的项目中</text>
+
+    <!-- Package card -->
+    <rect x="64" y="174" width="380" height="518" rx="22" fill="#FFFFFF" stroke="#DDE5EF" stroke-width="1.3"/>
+    <text x="90" y="207" fill="#63809B" font-size="11" font-weight="750" letter-spacing="1.8">01  /  SKILL PACKAGE</text>
+    <text x="90" y="240" fill="#1B3048" font-size="21" font-weight="700">可复用的规则与路由</text>
+    <rect x="88" y="257" width="332" height="38" rx="10" fill="#172B43"/>
+    <path d="M103 271h10l4 4h12v10h-26z" fill="none" stroke="#A9C8E7" stroke-width="1.5" stroke-linejoin="round"/>
+    <text x="140" y="281" fill="#F5F8FC" font-size="14" font-weight="600">.agents/skills/iver-learn-tech/</text>
+
+    <rect x="88" y="307" width="332" height="74" rx="13" fill="url(#blue)" stroke="#CCDAEE"/>
+    <rect x="88" y="307" width="4" height="74" rx="2" fill="#5478D1"/>
+    <circle cx="112" cy="332" r="11" fill="#5478D1"/>
+    <path d="M107 328h10M107 332h10M107 336h7" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="134" y="335" fill="#213A59" font-size="16" font-weight="700">SKILL.md</text>
+    <text x="105" y="360" fill="#60758B" font-size="13">入口 · 共同规则 · 流程路由</text>
+    <rect x="327" y="319" width="76" height="22" rx="11" fill="#FFFFFF" opacity="0.9"/>
+    <text x="365" y="334" fill="#5574AF" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="0.5">ENTRY</text>
+
+    <rect x="88" y="392" width="332" height="52" rx="12" fill="#F7F9FC" stroke="#E3E9F0"/>
+    <rect x="105" y="408" width="18" height="22" rx="3" fill="none" stroke="#8092A7" stroke-width="1.5"/>
+    <path d="M109 414h10M109 418h10M109 422h7" stroke="#8092A7" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="137" y="415" fill="#334B64" font-size="14" font-weight="650">agents/openai.yaml</text>
+    <text x="137" y="433" fill="#75869A" font-size="11.5">Codex 列表与快捷提示</text>
+
+    <text x="91" y="474" fill="#60758B" font-size="12" font-weight="700" letter-spacing="0.5">references/  ·  按场景加载</text>
+    <rect x="88" y="487" width="158" height="58" rx="11" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <circle cx="106" cy="505" r="4" fill="#4F78C8"/>
+    <text x="118" y="509" fill="#314A63" font-size="13" font-weight="650">planning.md</text>
+    <text x="102" y="531" fill="#76879A" font-size="11.5">路线与时间</text>
+    <rect x="262" y="487" width="158" height="58" rx="11" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <circle cx="280" cy="505" r="4" fill="#2D9A90"/>
+    <text x="292" y="509" fill="#314A63" font-size="13" font-weight="650">notes.md</text>
+    <text x="276" y="531" fill="#76879A" font-size="11.5">指南写作</text>
+
+    <rect x="88" y="555" width="158" height="58" rx="11" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <circle cx="106" cy="573" r="4" fill="#E59C4B"/>
+    <text x="118" y="577" fill="#314A63" font-size="13" font-weight="650">progress.md</text>
+    <text x="102" y="599" fill="#76879A" font-size="11.5">状态与接续</text>
+    <rect x="262" y="555" width="158" height="58" rx="11" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <circle cx="280" cy="573" r="4" fill="#8B72C4"/>
+    <text x="292" y="577" fill="#314A63" font-size="11.5" font-weight="650">learning-methods.md</text>
+    <text x="276" y="599" fill="#76879A" font-size="11.5">方法与资料依据</text>
+
+    <path d="M90 638h324" stroke="#E8EDF3"/>
+    <text x="90" y="662" fill="#688096" font-size="12.5">只读取当前任务需要的参考文件</text>
+
+    <!-- Flow card -->
+    <rect x="468" y="174" width="560" height="518" rx="22" fill="#FFFFFF" stroke="#DDE5EF" stroke-width="1.3"/>
+    <text x="494" y="207" fill="#63809B" font-size="11" font-weight="750" letter-spacing="1.8">02  /  LEARNING LOOP</text>
+    <text x="494" y="240" fill="#1B3048" font-size="21" font-weight="700">一次学习的运行流程</text>
+
+    <rect x="494" y="262" width="236" height="112" rx="15" fill="#F7F9FE" stroke="#DCE5F4"/>
+    <circle cx="520" cy="288" r="14" fill="#5578CF"/>
+    <text x="520" y="293" fill="#FFFFFF" font-size="12" font-weight="750" text-anchor="middle">1</text>
+    <text x="545" y="293" fill="#263D59" font-size="16" font-weight="700">建立分层路线</text>
+    <text x="514" y="327" fill="#697D92" font-size="12.5">工作主线 · 面试重点融入</text>
+    <text x="514" y="349" fill="#8292A4" font-size="11.5">确定目标、范围与本轮预算</text>
+
+    <rect x="766" y="262" width="236" height="112" rx="15" fill="#F5FAFA" stroke="#D8E9E6"/>
+    <circle cx="792" cy="288" r="14" fill="#2F9B91"/>
+    <text x="792" y="293" fill="#FFFFFF" font-size="12" font-weight="750" text-anchor="middle">2</text>
+    <text x="817" y="293" fill="#263D59" font-size="16" font-weight="700">进入真实项目</text>
+    <text x="786" y="327" fill="#697D92" font-size="12.5">业务问题 · 代码路径</text>
+    <text x="786" y="349" fill="#8292A4" font-size="11.5">读实现、测试与相关配置</text>
+
+    <rect x="766" y="401" width="236" height="112" rx="15" fill="#F5FAFA" stroke="#D8E9E6"/>
+    <circle cx="792" cy="427" r="14" fill="#2F9B91"/>
+    <text x="792" y="432" fill="#FFFFFF" font-size="12" font-weight="750" text-anchor="middle">3</text>
+    <text x="817" y="432" fill="#263D59" font-size="16" font-weight="700">与 AI 协作实践</text>
+    <text x="786" y="466" fill="#697D92" font-size="12.5">判断 · 实现 · 审查 · 验证</text>
+    <text x="786" y="488" fill="#8292A4" font-size="11.5">AI 协助，学习者核对关键取舍</text>
+
+    <rect x="494" y="401" width="236" height="112" rx="15" fill="#FBF8F3" stroke="#EEE3D3"/>
+    <circle cx="520" cy="427" r="14" fill="#D4954A"/>
+    <text x="520" y="432" fill="#FFFFFF" font-size="12" font-weight="750" text-anchor="middle">4</text>
+    <text x="545" y="432" fill="#263D59" font-size="16" font-weight="700">验收真实迁移</text>
+    <text x="514" y="466" fill="#697D92" font-size="12.5">新业务场景 · 常见面试表达</text>
+    <text x="514" y="488" fill="#8292A4" font-size="11.5">主要模块检查判断与解释能力</text>
+
+    <path d="M732 318h25" stroke="#8B9DB3" stroke-width="1.8" marker-end="url(#arrow)"/>
+    <path d="M884 376v19" stroke="#8B9DB3" stroke-width="1.8" marker-end="url(#arrow)"/>
+    <path d="M764 457h-26" stroke="#8B9DB3" stroke-width="1.8" marker-end="url(#arrow)"/>
+
+    <rect x="494" y="535" width="508" height="119" rx="15" fill="#F3F6FB" stroke="#E1E8F1"/>
+    <text x="514" y="560" fill="#60758B" font-size="11" font-weight="750" letter-spacing="1.3">TIMEBOX  /  每轮最多 60 分钟</text>
+    <rect x="514" y="575" width="126" height="36" rx="9" fill="#5578CF"/>
+    <text x="577" y="598" fill="#FFFFFF" font-size="13" font-weight="700" text-anchor="middle">30m  核心必做</text>
+    <path d="M646 593h12" stroke="#91A0B3" stroke-width="1.6" marker-end="url(#arrow)"/>
+    <rect x="666" y="575" width="130" height="36" rx="9" fill="#FFFFFF" stroke="#DDE5EF"/>
+    <text x="731" y="598" fill="#50657B" font-size="13" font-weight="650" text-anchor="middle">+15m  常规拓展</text>
+    <path d="M802 593h12" stroke="#91A0B3" stroke-width="1.6" marker-end="url(#arrow)"/>
+    <rect x="822" y="575" width="160" height="36" rx="9" fill="#FFFFFF" stroke="#DDE5EF"/>
+    <text x="902" y="598" fill="#50657B" font-size="13" font-weight="650" text-anchor="middle">+15m  选做拓展</text>
+    <text x="514" y="635" fill="#7B8CA0" font-size="11.5">选做不欠账；没有可靠计时依据时，不声称实际耗时</text>
+
+    <!-- Workspace card -->
+    <rect x="1052" y="174" width="324" height="518" rx="22" fill="#FFFFFF" stroke="#DDE5EF" stroke-width="1.3"/>
+    <text x="1076" y="207" fill="#63809B" font-size="11" font-weight="750" letter-spacing="1.5">03  /  LEARNING WORKSPACE</text>
+    <text x="1076" y="240" fill="#1B3048" font-size="21" font-weight="700">写回学习项目</text>
+    <rect x="1076" y="257" width="276" height="38" rx="10" fill="#172B43"/>
+    <path d="M1090 271h10l4 4h12v10h-26z" fill="none" stroke="#A9C8E7" stroke-width="1.5" stroke-linejoin="round"/>
+    <text x="1127" y="281" fill="#F5F8FC" font-size="14" font-weight="600">.learning/&lt;主题&gt;/</text>
+
+    <rect x="1076" y="309" width="276" height="132" rx="15" fill="#F7F9FE" stroke="#DCE5F4"/>
+    <circle cx="1101" cy="336" r="13" fill="#5578CF" opacity="0.12"/>
+    <path d="M1095 331h8l4 4v9h-12zM1103 331v4h4M1098 339h6M1098 342h6" fill="none" stroke="#5578CF" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    <text x="1123" y="340" fill="#29415D" font-size="14" font-weight="700">learning-guide.md</text>
+    <text x="1094" y="373" fill="#657A90" font-size="12.5">整体路线 · 连贯讲解</text>
+    <text x="1094" y="396" fill="#657A90" font-size="12.5">真实项目入口 · 面试关联</text>
+    <rect x="1094" y="411" width="104" height="18" rx="9" fill="#E8EEF9"/>
+    <text x="1146" y="424" fill="#5873AA" font-size="10.5" font-weight="650" text-anchor="middle">知识单一来源</text>
+
+    <rect x="1076" y="453" width="276" height="132" rx="15" fill="#F5FAFA" stroke="#D8E9E6"/>
+    <circle cx="1101" cy="480" r="13" fill="#2F9B91" opacity="0.13"/>
+    <path d="M1095 475h12v11h-12zM1098 478h6M1098 481h6M1098 484h4" fill="none" stroke="#2F9B91" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    <text x="1123" y="484" fill="#29415D" font-size="14" font-weight="700">progress.md</text>
+    <text x="1094" y="517" fill="#657A90" font-size="12.5">能力证据 · 理解缺口</text>
+    <text x="1094" y="540" fill="#657A90" font-size="12.5">业务上下文 · 下次任务</text>
+    <rect x="1094" y="555" width="120" height="18" rx="9" fill="#E5F2F0"/>
+    <text x="1154" y="568" fill="#398278" font-size="10.5" font-weight="650" text-anchor="middle">续学接续指针</text>
+
+    <text x="1077" y="621" fill="#71849A" font-size="12">两份资料 · 各有职责 · 不复制整段知识</text>
+    <path d="M1077 642h274" stroke="#E8EDF3"/>
+    <text x="1077" y="667" fill="#60758B" font-size="12">学习文件属于学习者项目，不进入 skill 包</text>
+
+    <!-- Main flow connectors -->
+    <path d="M445 420h18" stroke="#8B9DB3" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M1029 420h18" stroke="#8B9DB3" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <!-- Cross-session recovery band -->
+    <rect x="64" y="728" width="1312" height="158" rx="22" fill="url(#navy)"/>
+    <text x="92" y="766" fill="#A9C4DB" font-size="11" font-weight="750" letter-spacing="1.6">NEXT SESSION</text>
+    <text x="92" y="799" fill="#FFFFFF" font-size="20" font-weight="700">跨会话恢复</text>
+    <text x="92" y="825" fill="#C1D0DF" font-size="12.5">保留原教学深度，恢复后再继续</text>
+
+    <rect x="362" y="756" width="206" height="70" rx="13" fill="#28435F" stroke="#3C5874"/>
+    <circle cx="384" cy="778" r="10" fill="#5D84DB"/>
+    <text x="384" y="782" fill="#FFFFFF" font-size="10" font-weight="750" text-anchor="middle">1</text>
+    <text x="402" y="783" fill="#FFFFFF" font-size="13" font-weight="650">重读入口与进度</text>
+    <text x="381" y="807" fill="#B7C8D9" font-size="11.5">SKILL.md + progress.md</text>
+
+    <path d="M571 791h19" stroke="#A8BDD4" stroke-width="1.7" marker-end="url(#arrowLight)"/>
+    <rect x="598" y="756" width="206" height="70" rx="13" fill="#28435F" stroke="#3C5874"/>
+    <circle cx="620" cy="778" r="10" fill="#2F9B91"/>
+    <text x="620" y="782" fill="#FFFFFF" font-size="10" font-weight="750" text-anchor="middle">2</text>
+    <text x="638" y="783" fill="#FFFFFF" font-size="13" font-weight="650">定位相关指南与代码</text>
+    <text x="617" y="807" fill="#B7C8D9" font-size="11.5">只读必要段落与项目入口</text>
+
+    <path d="M807 791h19" stroke="#A8BDD4" stroke-width="1.7" marker-end="url(#arrowLight)"/>
+    <rect x="834" y="756" width="206" height="70" rx="13" fill="#28435F" stroke="#3C5874"/>
+    <circle cx="856" cy="778" r="10" fill="#D4954A"/>
+    <text x="856" y="782" fill="#FFFFFF" font-size="10" font-weight="750" text-anchor="middle">3</text>
+    <text x="874" y="783" fill="#FFFFFF" font-size="13" font-weight="650">做轻量回忆检查</text>
+    <text x="853" y="807" fill="#B7C8D9" font-size="11.5">检查哪些内容需要恢复</text>
+
+    <path d="M1043 791h19" stroke="#A8BDD4" stroke-width="1.7" marker-end="url(#arrowLight)"/>
+    <rect x="1070" y="756" width="278" height="70" rx="13" fill="#28435F" stroke="#3C5874"/>
+    <circle cx="1092" cy="778" r="10" fill="#D4954A"/>
+    <text x="1092" y="782" fill="#FFFFFF" font-size="10" font-weight="750" text-anchor="middle">4</text>
+    <text x="1110" y="783" fill="#FFFFFF" font-size="13" font-weight="650">忘记时按原深度补讲</text>
+    <text x="1089" y="807" fill="#B7C8D9" font-size="11.5">确认理解，再回到下一步任务</text>
+
+    <text x="720" y="919" fill="#8A9BAE" font-size="11.5" text-anchor="middle">真实项目 · 可验证的进展 · 可恢复的学习上下文</text>
+  </g>
+</svg>
